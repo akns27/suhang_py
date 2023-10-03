@@ -11,6 +11,6 @@ for i in range(24):#23번 반복
 #번호를 부를 때마다, 그 번호에 대한 카운트 1씩 증가
 for i in range(n):
   count_number = d[a[i].count('i')]
-#카운트한 값을 공백을 두고 출력
+#카운트한 값을 공백을 두고 출력-1
 for i in range(1, 24):
   print(count_number, end = '')
